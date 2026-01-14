@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$EMP - EMPATHY</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #008080;          /* Solid turquoise */
+      color: #000000;               /* Pure black text */
+      font-family: 'Courier New', Consolas, 'Lucida Console', monospace;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 7rem;
+      margin: 0.1em 0;
+      font-weight: bold;
+      letter-spacing: 6px;
+      text-shadow: 2px 2px 0 #001f1f; /* subtle dark shadow for depth */
+    }
+
+    .ticker {
+      font-size: 4.5rem;
+      margin: 0.2em 0;
+      font-weight: bold;
+    }
+
+    .ca-box {
+      background: rgba(0,0,0,0.25);   /* semi-transparent black overlay */
+      padding: 2.2em 3em;
+      border: 4px solid #000000;
+      border-radius: 10px;
+      max-width: 90%;
+      width: 800px;
+      font-size: 2rem;
+      line-height: 1.5;
+      font-weight: bold;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    }
+
+    .label {
+      font-size: 2.4rem;
+      margin-bottom: 0.6em;
+      color: #000000;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 2.4rem;
+      margin-top: 3em;
+      display: inline-block;
+      padding: 0.8em 1.6em;
+      border: 3px solid #000000;
+      border-radius: 8px;
+      background: rgba(0,0,0,0.15);
+      transition: all 0.3s;
+    }
+
+    a:hover {
+      background: rgba(0,0,0,0.5);
+      color: #001111;
+      transform: scale(1.08);
+      box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    }
+
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0.4; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>EMPATHY</h1>
+  <div class="ticker">$EMP</div>
+  
+  <div class="ca-box">
+    <div class="label">CONTRACT ADDRESS (CA):</div>
+    61dfxLb8QUKEQ3KVkTj1VExNzQcZHEeG6n7gVcDipump
+  </div>
+
+  <a href="https://pump.fun/coin/61dfxLb8QUKEQ3KVkTj1VExNzQcZHEeG6n7gVcDipump" target="_blank">
+    ACCESS PUMP.FUN →
+  </a>
+
+</body>
+</html>
